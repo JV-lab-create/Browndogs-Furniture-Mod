@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "browndog_furniture:steel_block"
+    }
+  ],
+  "result": {
+    "item": "browndog_furniture:steel_ingot",
+    "count": 9
+  }
+}

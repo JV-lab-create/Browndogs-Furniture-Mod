@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "browndog_furniture:aetherium_block"
+    }
+  ],
+  "result": {
+    "item": "browndog_furniture:aetherium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "browndog_furniture:custom/coffee_machene",
+  "textures": {
+    "all": "browndog_furniture:blocks/texture",
+    "particle": "browndog_furniture:blocks/texture",
+    "0": "browndog_furniture:blocks/texture"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      },
+      {
+        "value": "CUSTOM:StainlessSteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StainlessSteelBlock"
+    },
+    "name": "stainless_steel_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

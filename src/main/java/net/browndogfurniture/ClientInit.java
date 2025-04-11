@@ -16,10 +16,16 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
 
+import net.browndogfurniture.init.BrowndogFurnitureModScreens;
+import net.browndogfurniture.init.BrowndogFurnitureModBlocks;
+
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		BrowndogFurnitureModBlocks.clientLoad();
+		BrowndogFurnitureModScreens.load();
 
 	}
 }

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "browndog_furniture",
+  "version": "1.0.0",
+  "name": "Browndog's Furniture Mod",
+  "description": "A Minecraft mod that add furniture and more to the game! Made in MCreatior",
+  "authors": [
+    "jv--lab-create"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JV-lab-create/Browndogs-Furniture-Mod",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.browndogfurniture.BrowndogFurnitureMod"
+    ],
+    "client": [
+      "net.browndogfurniture.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "browndog_furniture.mixins.json"
+  ]
+}

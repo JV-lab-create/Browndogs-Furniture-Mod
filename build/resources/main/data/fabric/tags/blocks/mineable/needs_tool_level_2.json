@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "browndog_furniture:aetherium_ore",
+    "browndog_furniture:aetherium_block",
+    "browndog_furniture:stainless_steel_block"
+  ]
+}

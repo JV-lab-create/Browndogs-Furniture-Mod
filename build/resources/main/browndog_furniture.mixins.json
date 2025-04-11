@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.browndogfurniture.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"BrowndogFurnitureModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

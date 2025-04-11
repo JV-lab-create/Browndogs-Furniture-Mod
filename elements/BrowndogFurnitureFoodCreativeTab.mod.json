@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Browndog's Furniture - Food & Drinks",
+    "icon": {
+      "value": "Items.COOKED_BEEF"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "browndog_furniture:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "browndog_furniture:titanium_ingot",
+    "count": 9
+  }
+}
