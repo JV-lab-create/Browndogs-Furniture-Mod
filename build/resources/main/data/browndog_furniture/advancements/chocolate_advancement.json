@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:chocolate"
+    },
+    "title": {
+      "translate": "advancements.chocolate_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.chocolate_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chocolate_advancement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "browndog_furniture:chocolate"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

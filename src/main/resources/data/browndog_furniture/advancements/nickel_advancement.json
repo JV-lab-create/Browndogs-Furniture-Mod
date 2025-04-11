@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:nickel_ingot"
+    },
+    "title": {
+      "translate": "advancements.nickel_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.nickel_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nickel_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:nickel_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

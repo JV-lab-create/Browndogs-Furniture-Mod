@@ -1,0 +1,26 @@
+{
+  "group": "bark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "browndog_furniture:blue_log"
+    },
+    "1": {
+      "item": "browndog_furniture:blue_log"
+    },
+    "2": {
+      "item": "browndog_furniture:blue_log"
+    },
+    "3": {
+      "item": "browndog_furniture:blue_log"
+    }
+  },
+  "result": {
+    "item": "browndog_furniture:blue_wood",
+    "count": 3
+  }
+}

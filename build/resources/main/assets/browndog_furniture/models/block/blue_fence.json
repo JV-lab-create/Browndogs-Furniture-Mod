@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "browndog_furniture:blocks/blue_planks",
+    "particle": "browndog_furniture:blocks/blue_planks"
+  }
+}

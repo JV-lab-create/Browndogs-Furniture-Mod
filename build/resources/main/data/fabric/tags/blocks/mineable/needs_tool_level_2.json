@@ -3,6 +3,10 @@
   "values": [
     "browndog_furniture:aetherium_ore",
     "browndog_furniture:aetherium_block",
-    "browndog_furniture:stainless_steel_block"
+    "browndog_furniture:stainless_steel_block",
+    "browndog_furniture:sapphire_ore",
+    "browndog_furniture:sapphire_block",
+    "browndog_furniture:tar_dust_ore",
+    "browndog_furniture:tar_dust_block"
   ]
 }

@@ -2,20 +2,20 @@
   "_fv": 43,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 1.75,
+    "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
         "value": ""
@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
         "value": ""
@@ -33,22 +33,16 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": ""
+      "value": "CUSTOM:AetheriumSword"
     },
-    "smeltingInputStack": {
-      "value": "CUSTOM:TitaniumOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:TitaniumIngot"
-    },
-    "name": "titanium_ore_smelting",
+    "name": "aetherium_sword_recipe",
     "namespace": "mod"
   }
 }

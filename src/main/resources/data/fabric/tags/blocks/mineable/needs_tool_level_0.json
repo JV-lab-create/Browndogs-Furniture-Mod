@@ -1,4 +1,17 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "browndog_furniture:plastic_ore",
+    "browndog_furniture:plastic_block",
+    "browndog_furniture:blue_wood",
+    "browndog_furniture:blue_log",
+    "browndog_furniture:blue_planks",
+    "browndog_furniture:blue_leaves",
+    "browndog_furniture:blue_stairs",
+    "browndog_furniture:blue_slab",
+    "browndog_furniture:blue_fence",
+    "browndog_furniture:blue_fence_gate",
+    "browndog_furniture:blue_pressure_plate",
+    "browndog_furniture:blue_button"
+  ]
 }

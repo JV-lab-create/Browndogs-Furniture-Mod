@@ -1,0 +1,32 @@
+{
+  "group": "wooden_fence",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "browndog_furniture:blue_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "browndog_furniture:blue_planks"
+    },
+    "3": {
+      "item": "browndog_furniture:blue_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "browndog_furniture:blue_planks"
+    }
+  },
+  "result": {
+    "item": "browndog_furniture:blue_fence",
+    "count": 3
+  }
+}

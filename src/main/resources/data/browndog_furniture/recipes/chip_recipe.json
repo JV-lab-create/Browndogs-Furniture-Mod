@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "browndog_furniture:titanium_ingot"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "browndog_furniture:titanium_ingot"
+    },
+    "4": {
+      "item": "browndog_furniture:aetherium_ingot"
+    },
+    "5": {
+      "item": "browndog_furniture:titanium_ingot"
+    },
+    "6": {
+      "item": "minecraft:redstone"
+    },
+    "7": {
+      "item": "browndog_furniture:titanium_ingot"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "browndog_furniture:computer_chip",
+    "count": 1
+  }
+}

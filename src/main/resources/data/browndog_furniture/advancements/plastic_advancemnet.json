@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:plastic_ingot"
+    },
+    "title": {
+      "translate": "advancements.plastic_advancemnet.title"
+    },
+    "description": {
+      "translate": "advancements.plastic_advancemnet.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plastic_advancemnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:plastic_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "browndog_furniture:plastic_block_ore_recipe",
+      "browndog_furniture:plastic_ore_smelting",
+      "browndog_furniture:plastic_pickaxe_recipe",
+      "browndog_furniture:plastic_axe_recipe",
+      "browndog_furniture:plastic_sword_recipe",
+      "browndog_furniture:plastic_shovel_recipe",
+      "browndog_furniture:plastic_hoe_recipe",
+      "browndog_furniture:plastic_armor_helmet_recipe",
+      "browndog_furniture:plastic_armor_chestplate_recipe",
+      "browndog_furniture:plastic_armor_leggings_recipe",
+      "browndog_furniture:plastic_armor_boots_recipe"
+    ]
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

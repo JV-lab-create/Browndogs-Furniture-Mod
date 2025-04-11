@@ -10,6 +10,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
+import net.browndogfurniture.procedures.CoffieOnPlayerStoppedUsingProcedure;
 import net.browndogfurniture.init.BrowndogFurnitureModTabs;
 
 public class CoffieItem extends Item {
@@ -37,5 +38,10 @@ public class CoffieItem extends Item {
 			}
 			return itemstack;
 		}
+	}
+
+	@Override
+	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+		CoffieOnPlayerStoppedUsingProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 	}
 }

@@ -22,6 +22,7 @@ import net.browndogfurniture.init.BrowndogFurnitureModProcedures;
 import net.browndogfurniture.init.BrowndogFurnitureModMenus;
 import net.browndogfurniture.init.BrowndogFurnitureModItems;
 import net.browndogfurniture.init.BrowndogFurnitureModFeatures;
+import net.browndogfurniture.init.BrowndogFurnitureModBrewingRecipes;
 import net.browndogfurniture.init.BrowndogFurnitureModBlocks;
 import net.browndogfurniture.init.BrowndogFurnitureModBlockEntities;
 
@@ -44,6 +45,8 @@ public class BrowndogFurnitureMod implements ModInitializer {
 		BrowndogFurnitureModProcedures.load();
 
 		BrowndogFurnitureModMenus.load();
+
+		BrowndogFurnitureModBrewingRecipes.load();
 
 	}
 }

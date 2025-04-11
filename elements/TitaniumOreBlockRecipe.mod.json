@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:TitaniumIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TitaniumBlock"
+      "value": "CUSTOM:AetheriumArmor.helmet"
     },
-    "name": "titanium_ore_block_recipe",
+    "name": "aetherium_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

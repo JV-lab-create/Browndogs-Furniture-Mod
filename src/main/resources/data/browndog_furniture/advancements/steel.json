@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.steel.title"
+    },
+    "description": {
+      "translate": "advancements.steel.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:steel_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

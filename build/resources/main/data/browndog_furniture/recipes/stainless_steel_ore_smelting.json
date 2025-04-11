@@ -3,7 +3,7 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "browndog_furniture:stainless_steel_ore"
+    "item": "browndog_furniture:deleted_mod_element"
   },
   "result": "browndog_furniture:stainless_steel_ingot"
 }

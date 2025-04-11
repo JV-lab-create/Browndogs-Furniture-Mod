@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AetheriumIngot"
+        "value": ""
       },
       {
         "value": "CUSTOM:AetheriumIngot"
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AetheriumHoe"
+      "value": "CUSTOM:AetheriumShovel"
     },
-    "name": "aetherium_hoe_recipe",
+    "name": "aetherium_shovel_recipe",
     "namespace": "mod"
   }
 }

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 1.05,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "browndog_furniture:steel_ore"
-  },
-  "result": "browndog_furniture:steel_ingot"
-}

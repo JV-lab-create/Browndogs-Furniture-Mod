@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:TitaniumIngot"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:TitaniumIngot"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:TitaniumIngot"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:TitaniumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SteelBlock"
+      "value": "CUSTOM:TitaniumArmor.boots"
     },
-    "name": "steel_ore_block_recipe",
+    "name": "titanium_armor_boots_recipe",
     "namespace": "mod"
   }
 }

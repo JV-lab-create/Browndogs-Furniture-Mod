@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "browndog_furniture:items/sapphire_pickaxe"
+  }
+}

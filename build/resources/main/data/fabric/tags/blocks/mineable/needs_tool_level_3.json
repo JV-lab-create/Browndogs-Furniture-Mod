@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "browndog_furniture:steel_ore",
-    "browndog_furniture:steel_block"
+    "browndog_furniture:steel_block",
+    "browndog_furniture:nickel_ore",
+    "browndog_furniture:nickel_block"
   ]
 }

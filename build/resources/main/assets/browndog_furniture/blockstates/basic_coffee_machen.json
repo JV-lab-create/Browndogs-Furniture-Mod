@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "browndog_furniture:block/basic_coffee_machen"
+    },
+    "facing=east": {
+      "model": "browndog_furniture:block/basic_coffee_machen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "browndog_furniture:block/basic_coffee_machen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "browndog_furniture:block/basic_coffee_machen",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "browndog_furniture:block/basic_coffee_machen",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "browndog_furniture:block/basic_coffee_machen",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "browndog_furniture:textures/screens/adchevementbackground.png",
+    "icon": {
+      "item": "browndog_furniture:basic_coffee_machen"
+    },
+    "title": {
+      "translate": "advancements.browndog_furniture_mod_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.browndog_furniture_mod_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "browndog_furniture_mod_advancement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

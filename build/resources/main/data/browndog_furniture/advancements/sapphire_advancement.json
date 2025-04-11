@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:sapphire"
+    },
+    "title": {
+      "translate": "advancements.sapphire_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.sapphire_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sapphire_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:sapphire"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

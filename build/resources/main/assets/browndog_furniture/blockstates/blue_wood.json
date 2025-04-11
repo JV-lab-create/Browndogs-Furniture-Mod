@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "browndog_furniture:block/blue_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "browndog_furniture:block/blue_wood"
+    },
+    "axis=z": {
+      "model": "browndog_furniture:block/blue_wood",
+      "x": 90
+    }
+  }
+}

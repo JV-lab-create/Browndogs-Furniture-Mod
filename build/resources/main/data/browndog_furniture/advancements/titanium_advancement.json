@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:titanium_ingot"
+    },
+    "title": {
+      "translate": "advancements.titanium_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.titanium_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titanium_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:titanium_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

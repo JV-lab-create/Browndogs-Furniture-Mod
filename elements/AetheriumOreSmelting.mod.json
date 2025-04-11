@@ -2,17 +2,20 @@
   "_fv": 43,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.7,
+    "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:AetheriumIngot"
+      },
+      {
+        "value": "CUSTOM:AetheriumIngot"
       },
       {
         "value": ""
@@ -21,7 +24,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -30,25 +33,16 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": ""
+      "value": "CUSTOM:AetheriumHoe"
     },
-    "smeltingInputStack": {
-      "value": "CUSTOM:AetheriumOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:AetheriumIngot"
-    },
-    "name": "aetherium_ore_smelting",
+    "name": "aetherium_hoe_recipe",
     "namespace": "mod"
   }
 }

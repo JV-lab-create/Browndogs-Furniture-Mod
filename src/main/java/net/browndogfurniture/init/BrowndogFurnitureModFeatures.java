@@ -14,7 +14,11 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 
 import net.browndogfurniture.world.features.ores.TitaniumOreFeature;
+import net.browndogfurniture.world.features.ores.TarDustOreFeature;
 import net.browndogfurniture.world.features.ores.SteelOreFeature;
+import net.browndogfurniture.world.features.ores.SapphireOreFeature;
+import net.browndogfurniture.world.features.ores.PlasticOreFeature;
+import net.browndogfurniture.world.features.ores.NickelOreFeature;
 import net.browndogfurniture.world.features.ores.AetheriumOreFeature;
 import net.browndogfurniture.BrowndogFurnitureMod;
 
@@ -25,6 +29,10 @@ public class BrowndogFurnitureModFeatures {
 		register("titanium_ore", TitaniumOreFeature.feature(), TitaniumOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("aetherium_ore", AetheriumOreFeature.feature(), AetheriumOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("steel_ore", SteelOreFeature.feature(), SteelOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("nickel_ore", NickelOreFeature.feature(), NickelOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("sapphire_ore", SapphireOreFeature.feature(), SapphireOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("plastic_ore", PlasticOreFeature.feature(), PlasticOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("tar_dust_ore", TarDustOreFeature.feature(), TarDustOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

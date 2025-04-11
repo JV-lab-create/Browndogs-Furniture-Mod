@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "browndog_furniture:tar_dust_ore"
+  },
+  "result": "browndog_furniture:tar_dust_dust"
+}

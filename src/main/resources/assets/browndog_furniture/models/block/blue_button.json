@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "browndog_furniture:blocks/blue_planks"
+  }
+}

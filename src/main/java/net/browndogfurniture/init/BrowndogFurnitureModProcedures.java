@@ -4,6 +4,7 @@
  */
 package net.browndogfurniture.init;
 
+import net.browndogfurniture.procedures.CoffieOnPlayerStoppedUsingProcedure;
 import net.browndogfurniture.procedures.CoffeeMainProcedure;
 import net.browndogfurniture.procedures.CoffeeMacheneGUIScriptProcedure;
 
@@ -12,5 +13,6 @@ public class BrowndogFurnitureModProcedures {
 	public static void load() {
 		new CoffeeMacheneGUIScriptProcedure();
 		new CoffeeMainProcedure();
+		new CoffieOnPlayerStoppedUsingProcedure();
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "group": "wooden_button",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "browndog_furniture:blue_planks"
+    }
+  ],
+  "result": {
+    "item": "browndog_furniture:blue_button",
+    "count": 1
+  }
+}

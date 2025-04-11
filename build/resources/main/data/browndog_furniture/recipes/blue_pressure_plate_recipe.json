@@ -1,0 +1,19 @@
+{
+  "group": "wooden_pressure_plate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "browndog_furniture:blue_planks"
+    },
+    "1": {
+      "item": "browndog_furniture:blue_planks"
+    }
+  },
+  "result": {
+    "item": "browndog_furniture:blue_pressure_plate",
+    "count": 1
+  }
+}

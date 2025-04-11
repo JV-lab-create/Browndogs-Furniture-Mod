@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "browndog_furniture:tar_dust_block"
+    }
+  ],
+  "result": {
+    "item": "browndog_furniture:tar_dust_dust",
+    "count": 9
+  }
+}

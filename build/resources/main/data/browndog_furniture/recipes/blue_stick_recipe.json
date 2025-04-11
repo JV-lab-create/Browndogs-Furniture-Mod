@@ -1,0 +1,20 @@
+{
+  "group": "sticks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "browndog_furniture:blue_planks"
+    },
+    "1": {
+      "item": "browndog_furniture:blue_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "browndog_furniture:computer_chip"
+    },
+    "title": {
+      "translate": "advancements.basicchipadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.basicchipadvancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basicchipadvancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "browndog_furniture:computer_chip"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "browndog_furniture:browndog_furniture_mod_advancement"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "browndog_furniture:stainless_steel_ingot"
+    },
+    "1": {
+      "item": "browndog_furniture:stainless_steel_ingot"
+    },
+    "2": {
+      "item": "browndog_furniture:stainless_steel_ingot"
+    },
+    "3": {
+      "item": "minecraft:glass_pane"
+    },
+    "4": {
+      "item": "browndog_furniture:computer_chip"
+    },
+    "5": {
+      "item": "minecraft:glass_bottle"
+    },
+    "6": {
+      "item": "browndog_furniture:stainless_steel_ingot"
+    },
+    "7": {
+      "item": "minecraft:redstone_torch"
+    },
+    "8": {
+      "item": "browndog_furniture:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "browndog_furniture:basic_coffee_machen",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "browndog_furniture:block/blue_slab"
+    },
+    "type=top": {
+      "model": "browndog_furniture:block/blue_slab_top"
+    },
+    "type=double": {
+      "model": "browndog_furniture:block/blue_slab_full"
+    }
+  }
+}
